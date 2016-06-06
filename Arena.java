@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Vector;
 
 public class Arena {
-	    static int _mone_move =0;
+	    static int Move =0;
 	    int Mat_Robot_ID[][];
 	    int Mat_Zone[][];
 	    Vector<Robot> Robots=new Vector<Robot>();
@@ -116,7 +116,7 @@ public class Arena {
 	        boolean []array = this.getEnv(ID);
 	        if(array[direction]==false)return false;
 	        else{
-	            Arena._mone_move +=1;
+	            Arena.Move +=1;
 	            int x = this.Robots.get(ID).Real_Location.x;
 	            int y = this.Robots.get(ID).Real_Location.y;
 	            this.Mat_Robot_ID[x][y]=-1;
