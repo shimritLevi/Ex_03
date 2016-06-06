@@ -23,7 +23,6 @@ public class StaticParameters {
 	static int BLACK;
 	static int OLDER;
 	static int SAME_AGE;
-	static int YOUNGER;
 	static int UP;
 	static int LEFT;
 	static int DOWN;
@@ -120,9 +119,6 @@ public class StaticParameters {
 		return SAME_AGE;
 	}
 
-	public static int YOUNGER() {
-		return YOUNGER;
-	}
 
 	public static int UP() {
 		return UP;
@@ -253,7 +249,6 @@ public class StaticParameters {
 		BLACK=GetNumber(scanner);
 		OLDER=GetNumber(scanner);
 		SAME_AGE=GetNumber(scanner);
-		YOUNGER=GetNumber(scanner);
 		UP=GetNumber(scanner);
 		LEFT=GetNumber(scanner);
 		DOWN=GetNumber(scanner);
@@ -286,7 +281,7 @@ public class StaticParameters {
 				+ TRANSMISSION_RANGE + ", ROBOTS_NOT_MOVE=" + ROBOTS_NOT_MOVE + ", ROBOTS_MOVE=" + ROBOTS_MOVE
 				+ ", ARENA_X=" + ARENA_X + ", ARENA_Y=" + ARENA_Y + ", LOG_FILE_DIRECTORY=" + LOG_FILE_DIRECTORY
 				+ ", WHITE=" + WHITE + ", GRAY=" + GRAY + ", BLACK=" + BLACK + ", OLDER=" + OLDER + ", SAME_AGE="
-				+ SAME_AGE + ", YOUNGER=" + YOUNGER + ", UP=" + UP + ", LEFT=" + LEFT + ", DOWN=" + DOWN + ", RIGHT="
+				+ SAME_AGE + ", UP=" + UP + ", LEFT=" + LEFT + ", DOWN=" + DOWN + ", RIGHT="
 				+ RIGHT + ", INSTANT_SENDING_CHANCE=" + INSTANT_SENDING_CHANCE + ", SENDING_KNOWN_DEVIATION="
 				+ SENDING_KNOWN_DEVIATION + ", MAX_NUM_OF_VERSIONS=" + MAX_NUM_OF_VERSIONS + ", MESSAGE_LIFE_TIME="
 				+ MESSAGE_LIFE_TIME + ", ROBOT_LEANGHT=" + ROBOT_LEANGHT + ", INFINITY=" + INFINITY + ", MIN_MSG_RANGE="
